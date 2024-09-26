@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F7E1A7D2CA5BDC300F88E14 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7E1A7C2CA5BDC300F88E14 /* LocationView.swift */; };
+		6F7E1A7F2CA5BDCD00F88E14 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7E1A7E2CA5BDCD00F88E14 /* ScanView.swift */; };
+		6F7E1A812CA5C07000F88E14 /* ScanDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7E1A802CA5C07000F88E14 /* ScanDetailsView.swift */; };
 		E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE052531EA2500C17A92 /* PriceCheckApp.swift */; };
 		E7D5EE082531EA2500C17A92 /* ScanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE072531EA2500C17A92 /* ScanListView.swift */; };
 		E7D5EE0A2531EA2600C17A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D5EE092531EA2600C17A92 /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F7E1A7C2CA5BDC300F88E14 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		6F7E1A7E2CA5BDCD00F88E14 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		6F7E1A802CA5C07000F88E14 /* ScanDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDetailsView.swift; sourceTree = "<group>"; };
 		E7D5EE022531EA2500C17A92 /* PriceCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D5EE052531EA2500C17A92 /* PriceCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCheckApp.swift; sourceTree = "<group>"; };
 		E7D5EE072531EA2500C17A92 /* ScanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListView.swift; sourceTree = "<group>"; };
@@ -92,6 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				E7D5EE072531EA2500C17A92 /* ScanListView.swift */,
+				6F7E1A802CA5C07000F88E14 /* ScanDetailsView.swift */,
+				6F7E1A7C2CA5BDC300F88E14 /* LocationView.swift */,
+				6F7E1A7E2CA5BDCD00F88E14 /* ScanView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,10 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F7E1A7F2CA5BDCD00F88E14 /* ScanView.swift in Sources */,
 				E7D5EE082531EA2500C17A92 /* ScanListView.swift in Sources */,
+				6F7E1A7D2CA5BDC300F88E14 /* LocationView.swift in Sources */,
 				E7D5EE3725325A7000C17A92 /* Location.swift in Sources */,
 				E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */,
 				E7D5EE182531EBB000C17A92 /* PriceScan.swift in Sources */,
+				6F7E1A812CA5C07000F88E14 /* ScanDetailsView.swift in Sources */,
 				E7D5EE342532599C00C17A92 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
